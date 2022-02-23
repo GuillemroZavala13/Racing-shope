@@ -1,8 +1,7 @@
 .header{
-    
     background-image: url(../img/banner_2.jpg);
     background-repeat: no-repeat;
-    max-width: 100%;
+    max-width: 50%;
     height: 400px;
     background-position: center;
 }
