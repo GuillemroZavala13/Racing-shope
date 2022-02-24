@@ -1,9 +1,9 @@
 .header{
-    background-image: url(../img/banner_2.jpg);
     background-repeat: no-repeat;
-    max-width: 50%;
-    height: 400px;
+    max-width: 100%;
+    height: 500px;
     background-position: center;
+    filter: brightness(50%);
 }
 
 body{
@@ -53,4 +53,20 @@ body{
 }
 .hero-banner .btn:hover:before {
     width: 100%;
+}
+
+.festival{
+    padding: 2rem;
+    width: 100%;
+    height: 400px;
+}
+
+.nosotros__contendio{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    transition: all 400ms ease;
+}
+
+.nosotros__contendio:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
 }
